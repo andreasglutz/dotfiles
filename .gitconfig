@@ -51,3 +51,6 @@
 # http://rentzsch.tumblr.com/post/564806957/public-but-hackable-git-submodules
 [url "git@github.com:andreasglutz/"]
   insteadOf = "git://github.com/andreasglutz/"
+[user]
+	name = Andreas Glutz
+	email = andreas.glutz@jvm.ch
