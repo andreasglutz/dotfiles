@@ -2,8 +2,8 @@
 [alias]
 	a = add
 	c = commit -am
-	up = pull
-	pu = push
+	pl = pull
+	ps = push
 	st = status #-s
 	df = diff --color --color-words --abbrev
 	hst = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
@@ -11,7 +11,7 @@
 [apply]
 	whitespace = fix
 [core]
-	# excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignore_global
 	# attributesfile = ~/.gitattributes
 	# whitespace = fix,space-before-tab,tab-in-indent,trailing-space
 	autocrlf = false
