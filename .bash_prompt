@@ -1,7 +1,7 @@
 # @gf3’s Sexy Bash Prompt, inspired by “Extravagant Zsh Prompt”
 # Shamelessly copied from https://github.com/gf3/dotfiles
 
-## default_username='andreasglutz'
+default_username='andreasglutz'
 
 
 
@@ -49,9 +49,9 @@ function parse_git_branch() {
 }
 
 # Only show username/host if not default
-# function usernamehost() {
-# 	if [ $USER != $default_username ]; then echo "${MAGENTA}$USER ${WHITE}at ${ORANGE}$HOSTNAME $WHITEin "; fi
-# }
+function usernamehost() {
+	if [ $USER != $default_username ]; then echo "${MAGENTA}$USER ${WHITE}at ${ORANGE}$HOSTNAME $WHITEin "; fi
+}
 
 # iTerm Tab and Title Customization and prompt customization
 # http://sage.ucsc.edu/xtal/iterm_tab_customization.html

@@ -1,6 +1,4 @@
-[user]
-	name = Andreas Glutz
-	email = andreas.glutz@jvm.ch
+
 [alias]
 	a = add
 	c = commit -am
