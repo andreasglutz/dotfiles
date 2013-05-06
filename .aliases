@@ -18,7 +18,6 @@ alias hosts='sudo $EDITOR /etc/hosts'   # yes I occasionally 127.0.0.1 twitter.c
 
 # handy things
 alias bunyip='node ~/code/bunyip/cli.js'
-alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
 
 
 # Detect which `ls` flavor is in use
@@ -91,6 +90,7 @@ alias trimcopy="tr -d '\n' | pbcopy"
 ## alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 
 # Shortcuts
+alias o="open ."
 alias g="git"
 alias n="nano"
 alias d="dandelion"
